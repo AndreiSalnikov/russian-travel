@@ -1,0 +1,17 @@
+.places__text {
+  margin: 0 auto 26px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #fff;
+}
+
+.places__text:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width:  720px) {
+  .places__text {
+    font-size: 16px;
+  }
+}

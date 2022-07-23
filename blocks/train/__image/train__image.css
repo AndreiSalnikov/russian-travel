@@ -1,0 +1,21 @@
+.train__image {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .train__image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .train__image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .train__image {
+    max-width: 100%;
+  }
+}

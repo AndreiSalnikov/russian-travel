@@ -1,0 +1,25 @@
+.train {
+  margin: 0 auto 92px;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .train {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .train {
+    margin: 0 auto 88px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .train {
+    margin: 0 auto 64px;
+    max-width: 320px;
+  }
+}
+

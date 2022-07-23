@@ -1,0 +1,11 @@
+.header__languages {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px){
+  .header__languages {
+  display: flex;
+  align-items: center;
+  }
+}

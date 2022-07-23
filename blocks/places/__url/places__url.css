@@ -1,0 +1,21 @@
+.places__url {
+  margin: 0;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #aaa;
+}
+
+@media screen and (max-width:  768px) {
+  .places__url {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width:  320px) {
+  .places__url {
+    max-width: 288px;
+    margin-bottom: 12px;
+  }
+}

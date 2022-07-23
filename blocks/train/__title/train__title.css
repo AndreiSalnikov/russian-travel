@@ -1,0 +1,31 @@
+.train__title {
+  text-align: center;
+  margin: 56px auto 32px;
+  color: #fff;
+  max-width: 720px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  white-space: pre-line;
+}
+
+@media screen and (max-width: 1024px) {
+  .train__title {
+    margin: 48px auto 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .train__title {
+    margin: 48px auto 32px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .train__title {
+    margin: 48px auto 16px;
+    font-size: 40px;
+    line-height: 44px;
+    max-width: 288px;
+  }
+}
