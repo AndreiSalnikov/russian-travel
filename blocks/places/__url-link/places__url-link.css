@@ -15,12 +15,6 @@
   }
 }
 
-@media screen and (max-width:  630px) {
-  .places__url-link{
-    max-width: 170px;
-  }
-}
-
 @media screen and (max-width:  320px) {
   .places__url-link{
     max-width: 288px;

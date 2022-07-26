@@ -1,13 +1,4 @@
 .header__link {
   color: #fff;
   text-decoration: none;
-  max-width: 32px;
-  max-height: 15px;
-}
-
-@media screen and (max-width: 320px) {
-  .header__link {
-  max-width: 22px;
-  max-height: 20px;
-  }
 }

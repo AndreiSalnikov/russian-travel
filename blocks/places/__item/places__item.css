@@ -28,23 +28,27 @@
   }
 }
 
-@media screen and (max-width: 606px) {
+@media screen and (max-width: 630px) {
   .places__item {
     row-gap: 32px;
-    grid-template-columns: minmax(min-content,max-content);
+    grid-template-columns: 290px minmax(min-content,max-content);
   }
   .places__item:last-of-type {
   margin-bottom: 66px;
   }
 }
 
+@media screen and (max-width: 606px) {
+  .places__item {
+    grid-template-columns: minmax(min-content,max-content);
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places__item {
     margin-bottom: 50px;
-    row-gap: 32px;
-    grid-template-columns: minmax(min-content,max-content);
   }
-  .places__item:last-of-type {
-  margin-bottom: 66px;
+  .places__item:nth-child(4) .places__texts {
+    max-width: 283px;
   }
 }

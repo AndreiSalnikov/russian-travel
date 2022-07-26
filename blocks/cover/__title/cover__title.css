@@ -1,5 +1,4 @@
-.baikal__title {
-  position: relative;
+.cover__title {
   text-align: center;
   padding-bottom: 32px;
   max-width: 560px;
@@ -9,27 +8,14 @@
   color: #fff;
   text-decoration: none;
   margin: 0 auto;
-  padding-top: 245px;
-}
-
-@media screen and (max-width: 1024px) {
-  .baikal__title {
-    padding-top: 195px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .baikal__title {
-    padding-top: 115px;
-  }
+  z-index: 0;
 }
 
 @media screen and (max-width: 560px) {
-  .baikal__title {
+  .cover__title {
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
-    padding-top: 33px;
     padding-bottom: 16px;
   }
 }
