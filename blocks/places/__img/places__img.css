@@ -8,15 +8,3 @@
     max-width: 100%;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .places__img {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .places__img {
-    max-width: 100%;
-  }
-}

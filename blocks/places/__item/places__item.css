@@ -37,3 +37,14 @@
   margin-bottom: 66px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places__item {
+    margin-bottom: 50px;
+    row-gap: 32px;
+    grid-template-columns: minmax(min-content,max-content);
+  }
+  .places__item:last-of-type {
+  margin-bottom: 66px;
+  }
+}

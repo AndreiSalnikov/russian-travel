@@ -14,12 +14,6 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .train__title {
-    margin: 48px auto 32px;
-  }
-}
-
 @media screen and (max-width: 720px) {
   .train__title {
     margin: 48px auto 16px;

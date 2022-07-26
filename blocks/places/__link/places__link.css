@@ -4,22 +4,17 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  transition: opacity .5s ease-out;
 }
-
-.places__link:hover {
-  opacity: 0.8;
-}
-
-/*@media screen and (max-width:  928px) {
-  .places__link {
-    max-width: 90%; 
-  }
-}*/
 
 @media screen and (max-width:  768px) {
   .places__link {
     max-width: 352px;
+  }
+}
+
+@media screen and (max-width:  630px) {
+  .places__link {
+    max-width: 170px;
   }
 }
 

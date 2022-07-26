@@ -1,0 +1,42 @@
+.baikal__section {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1184px;
+  min-height: 740px;
+  background-image: url("../../../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.baikal__section:before {
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width:  1024px) {
+  .baikal__section {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width:  768px) {
+  .baikal__section {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width:  560px) {
+  .baikal__section {
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width:  320px) {
+  .baikal__section {
+    min-height: 200px;
+  }
+}

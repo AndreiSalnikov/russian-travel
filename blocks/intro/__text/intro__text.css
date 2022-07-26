@@ -1,8 +1,32 @@
 .intro__text {
   margin: 0;
-  margin-bottom: 34px;
+  margin-bottom: 33px;
   max-width: 690px;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
 }
+
+@media screen and (max-width: 768px) {
+ .intro__text {
+  margin: 0;
+  margin-bottom: 33px;
+  max-width: 720px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  } 
+}
+
+@media screen and (max-width: 320px) {
+ .intro__text {
+  margin: 0;
+  margin-bottom: 34px;
+  max-width: 288px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  } 
+}
+
+

@@ -1,17 +1,8 @@
 .header__language {
-  max-width: 30px;
-  max-height: 28px;
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
-  color: #fff;
-  background-color: #2a2c2f;
-  border-style: none;
   margin-right: 18px;
-}
-
-.header__language:first-of-type {
-  text-decoration: underline;
 }
 
 .header__language:last-child {
@@ -20,11 +11,8 @@
 
 @media screen and (max-width: 320px) {
   .header__language {
-    font-weight: 400;
     font-size: 18px;
     line-height: 20px;
-    width: 22px;
-    height: 20px;
   }
 }
 

@@ -1,17 +1,10 @@
 .places__url-link {
-/*  padding-right: 28px;*/
   align-self: end;
 }
 
 @media screen and (max-width:  1024px) {
   .places__url-link{
-    max-width: 100px;
-    padding: 0;
-  }
-}
-
-@media screen and (max-width:  928px) {
-  .places__url-link{
+    max-width: 456px;
     padding: 0;
   }
 }
@@ -19,12 +12,18 @@
 @media screen and (max-width:  768px) {
   .places__url-link{
     max-width: 352px;
-    padding: 0;
+  }
+}
+
+@media screen and (max-width:  630px) {
+  .places__url-link{
+    max-width: 170px;
   }
 }
 
 @media screen and (max-width:  320px) {
   .places__url-link{
-    margin: 0;
+    max-width: 288px;
+    padding: 0 16px 0 16px;
   }
 }

@@ -1,5 +1,5 @@
 .places__text {
-  margin: 0 auto 26px;
+  margin: 0 auto 27px;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
@@ -10,8 +10,15 @@
   margin: 0;
 }
 
-@media screen and (max-width:  720px) {
+@media screen and (max-width:  768px) {
   .places__text {
     font-size: 16px;
+    margin: 0 auto 25px;
+  }
+}
+
+@media screen and (max-width:  320px) {
+  .places__text {
+    max-width: 288px;
   }
 }
