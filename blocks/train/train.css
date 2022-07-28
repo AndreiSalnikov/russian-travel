@@ -18,7 +18,6 @@
 
 @media screen and (max-width: 320px) {
   .train {
-    margin: 0 auto 64px;
     max-width: 320px;
   }
 }

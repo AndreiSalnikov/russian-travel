@@ -9,7 +9,7 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 530px) {
   .header__language {
     font-size: 18px;
     line-height: 20px;

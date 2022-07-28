@@ -4,7 +4,7 @@
 
 @media screen and (max-width:  1024px) {
   .places__texts{
-    max-width: 456px;
+    /*max-width: 456px;*/
     padding: 0;
   }
 }
@@ -15,9 +15,15 @@
   }
 }
 
+@media screen and (max-width:  630px) {
+  .places__texts{
+   padding: 0 16px 0 16px;
+    max-width: 440px;
+  }
+}
+
 @media screen and (max-width:  320px) {
   .places__texts{
-    padding: 0 16px 0 16px;
     max-width: 288px;
   }
 }
